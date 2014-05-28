@@ -37,6 +37,13 @@ chmod +x /usr/local/bin/vbkick /usr/local/bin/convert_2_scancode.py
 
 ## How to use
 
+### include submodules of templates
+```
+cd vbkick
+git init submodule init
+git submodule update
+```
+
 ### create a new vagrant box
 ```
 vbkick build newVM
